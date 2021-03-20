@@ -1,0 +1,6 @@
+dotfiles-bin () {
+    local MODULE_NAME="bin"
+    export PATH=$PATH:"${DOTFILES_DATA}/${MODULE_NAME}/binaries"
+}
+
+dotfiles-bin
